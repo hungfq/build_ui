@@ -19,7 +19,7 @@ export function createStore(reducer) {
     }
 
     return {
-        attack(component, root) {
+        attach(component, root) {
             roots.set(root, component)
             render()
         },

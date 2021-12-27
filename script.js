@@ -1,5 +1,5 @@
-import { attack } from './store.js'
+import { attach } from './store.js'
 import App from './component/App.js'
 
 
-attack(App, document.getElementById('root'))
+attach(App, document.getElementById('root'))
